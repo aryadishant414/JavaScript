@@ -1,0 +1,1 @@
+console.log("Hello Succesfully Linked JavaScript to out Html Webpage");
