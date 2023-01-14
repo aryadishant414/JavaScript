@@ -1,0 +1,1 @@
+console.log("Hello our JAVASCRIPT file has been successfully Connected EXTERNALLY ");
