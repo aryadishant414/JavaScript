@@ -1,0 +1,27 @@
+var readlineSync = require('readline-sync');
+var score = 0;
+
+//function definition
+function play(question , answer){
+  var userAnswer = readlineSync.question(question);
+  if(userAnswer === answer)
+  {
+  console.log("you were right!");
+  score++;
+    console.log("your score is : " , score);
+  }
+  else{
+    console.log("you were wrong!");
+    score--;
+    console.log("your score is : " , score);
+  }
+  
+}
+
+//Function Calling
+play("What i do Currently? " , "study");
+play("what is your age? " , "19");
+play("do you like codiing ?" , "yes");
+
+console.log("GAME OVER!!!")
+console.log("YOUR TOTAL SCORE IS : " , score);
