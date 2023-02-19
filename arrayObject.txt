@@ -1,0 +1,29 @@
+
+// CREATE AN ARRAY OF SUPERHEROES USING OBJECTS :
+// BY USING FOR LOOP PRINTING ALL THE PROPERTIES OF THE SUPERHEROES
+
+//SUPERHEROES
+
+var spiderman = {
+  name : "spiderman",
+  costume : "long",
+  color : "red-Blue",
+  strength : 100000,
+  speed : 10000,
+  
+};
+
+var batman = {
+  name : "batman",
+  costume : "nhi pata LOL" ,
+  color : "dont-KNow",
+  strength : 10000,
+  speed : 1000,
+};
+var superHeroes = ["spiderman" , "batman"];
+for(var i = 0 ; i<superHeroes.length ; i++)
+  {
+var currentHero = superHeroes[i];
+    console.log("current hero is : " ,currentHero);
+     console.log("Name of Current Hero" ,currentHero.name);
+  }
