@@ -15,13 +15,45 @@
         so in this we will learn about var keyword
     -->
 
-    <script>
+<!-- 
 
-            const name = "dishant";
-            name = "hello";   // not possible
-            document.write(name);
+  difference between all these 3 variables:
 
-    </script>
+1. var variable keyword :
+
+<script>
+         case(i)    var name = "dishant";
+                    document.write(name);    o/p -> dishant
+
+         case (ii)      var name = "dish";    // this is redeclaring and redefination of name using var and this is possible
+                      document.write(name)  // o/p -> dish
+
+</script>
+
+
+2. let variable keyword:
+
+    case(i)       let name = "dishant";
+           document.write(name);  // o/p -> dishant
+           let name = "dish";  // o/p -> ERROR in console screen
+        
+           
+    case(ii)      let name = "dishant";  
+                  name = "dish";    // possible
+                  document.write(name) // o/p -> dish
+
+
+3. const variable keyword:
+
+       case(i)         const name = "dishant";
+                   document.write(name);  o/p -> dishant
+
+       case(ii)         const name = "dishant";
+                       const name = "dish";   // ERROR will be shown to us in console screen because constant value cant be changed once declared
+
+
+
+ -->
 
 </body>
 </html>
